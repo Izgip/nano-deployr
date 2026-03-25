@@ -1,4 +1,3 @@
-// nanod.h
 #ifndef NANOD_H
 #define NANOD_H
 
