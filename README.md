@@ -1,5 +1,5 @@
-# nano-deployr
-This is the Github repo for Nano Deployer. It is currently under the LGPL v3 License. Please adapt your use of this software accordingly.
+# GNU nano-deployr
+This is the official Github repo for Nano Deployer. It is currently under the LGPL v3 License. Please adapt your use of this software accordingly.
 
 
 # Why use nano-deployr?
