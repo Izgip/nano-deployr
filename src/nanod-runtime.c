@@ -113,7 +113,7 @@ int main(int argc __attribute__((unused)), char *argv[] __attribute__((unused)))
 
     long header_pos = -1;
 
-    // 1️⃣ Footer lookup
+    // Footer lookup
     if (file_size > (long)sizeof(long)) {
         long footer_pos = file_size - sizeof(long);
         fseek(fp, footer_pos, SEEK_SET);
@@ -125,7 +125,7 @@ int main(int argc __attribute__((unused)), char *argv[] __attribute__((unused)))
         }
     }
 
-    // 2️⃣ Fallback byte-by-byte scan
+    // Fallback byte-by-byte scan
     if (header_pos == -1) {
         long scan_pos = file_size - sizeof(NanoDHeader);
         while (scan_pos >= 0) {
